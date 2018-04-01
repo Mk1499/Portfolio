@@ -79,19 +79,19 @@ $(document).ready(function(){
             
             setTimeout(function(){
   $(".html .progress-bar").css("width",$(".progress-bar").attr("aria-valuenow")+"%")   
-},1500) ; 
+},1000) ; 
             setTimeout(function(){
   $(".css .progress-bar").css("width",$(".css .progress-bar").attr("aria-valuenow")+"%")   
-},1500)
+},1000)
             setTimeout(function(){
   $(".jquery .progress-bar").css("width",$(".jquery .progress-bar").attr("aria-valuenow")+"%")   
-},1500)
+},1000)
        setTimeout(function(){
   $(".joomla .progress-bar").css("width",$(".joomla .progress-bar").attr("aria-valuenow")+"%")   
-},1500)
+},1000)
             setTimeout(function(){
   $(".php .progress-bar").css("width",$(".php .progress-bar").attr("aria-valuenow")+"%")   
-},1500)
+},1000)
         }
     
     })  
